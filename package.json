@@ -4,7 +4,6 @@
   "description": "SQLite3 bindings for React Native (Android & iOS)",
   "main": "sqlite.js",
   "scripts": {
-    "release": "release-it",
     "test": "echo \"Error: no test specified yet\" && exit 1"
   },
   "repository": {
@@ -28,7 +27,7 @@
     "lib/*",
     "platforms/*"
   ],
-  "author": "Mendix",
+  "author": "Mendix, Andrzej Porebski",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mendix/react-native-sqlite-storage/issues"
@@ -36,9 +35,6 @@
   "homepage": "https://github.com/mendix/react-native-sqlite-storage",
   "peerDependencies": {
     "react-native": ">=0.14.0"
-  },
-  "devDependencies": {
-    "release-it": "^15.1.1"
   },
   "release-it": {
     "git": {
