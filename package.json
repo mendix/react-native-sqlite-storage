@@ -36,6 +36,7 @@
   "peerDependencies": {
     "react-native": ">=0.14.0"
   },
+  "types": "./lib/types.d.ts",
   "release-it": {
     "git": {
       "commitMessage": "chore: release ${version}",
