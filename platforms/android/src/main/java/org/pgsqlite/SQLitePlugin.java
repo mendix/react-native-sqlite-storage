@@ -88,6 +88,13 @@ public class SQLitePlugin extends ReactContextBaseJavaModule {
         return PLUGIN_NAME;
     }
 
+    @Override
+    public Map<String, Object> getConstants() {
+       final Map<String, Object> constants = new HashMap<>();
+       constants.put("SUPPORTS_ENCRYPTION", true);
+       return constants;
+    }
+
     @ReactMethod
     public void open(ReadableMap args, Callback success, Callback error) {
         String actionAsString = "open";
