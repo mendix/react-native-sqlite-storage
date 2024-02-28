@@ -1,5 +1,8 @@
 # Version History
 
+v7.0.0
+ 1. A+ Promise support
+
 v6.1.3
  1. Add SUPPORTS_ENCRYPTION const to native module (iOS/Android)
 
