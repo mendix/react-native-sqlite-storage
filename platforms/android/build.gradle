@@ -5,7 +5,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath "com.android.tools.build:gradle:7.4.2"
     }
 }
 
@@ -16,6 +16,7 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
+    namespace = "org.pgsqlite"
     compileSdkVersion safeExtGet('compileSdkVersion', 23)
     buildToolsVersion safeExtGet('buildToolsVersion', '27.0.3')
 
