@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "react": "16.13.1",
-    "react-native": "^0.69.12",
+    "react-native": "^0.73.6",
     "react-native-windows": "^0.73.8"
   },
   "release-it": {
